@@ -3,10 +3,12 @@ import sublime
 import sublime_plugin
 import subprocess
 
-class BlitzSearchThis(sublime_plugin.WindowCommand):
-	def run(self):
-		window = self.window
-		view = window.active_view()
+class BlitzSearchThis(sublime_plugin.TextCommand):
+	def __init__(self, view):
+		self.view = view
+
+	def run(self, edit):
+		view = self.view
 		sel = view.sel()
 
 		region1 = sel[0]
@@ -40,3 +42,9 @@ class BlitzSearchThis(sublime_plugin.WindowCommand):
 		f.close()
 
 		os.startfile(envProgramFilePath)
+
+	def is_enabled(self):
+		if self.view is None:
+			return False
+		return True
+
