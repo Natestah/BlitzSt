@@ -35,6 +35,9 @@ class BlitzSearchThis(sublime_plugin.TextCommand):
 
 		appdata = os.environ.get("appdata")
 		ipcPath = os.path.join(appdata, 'NathanSilvers','POORMANS_IPC')
+
+		if not os.path.exists(ipcPath):
+			os.makedirs(ipcPath)
 		ipcFile = os.path.join(ipcPath,'SET_SEARCH.txt' )
 
 		f = open(ipcFile, "w")
