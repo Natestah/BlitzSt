@@ -34,4 +34,5 @@ For more information visit - [Visit Natestah.com](https://natestah.com)
 
 - Use [Package Control](https://packagecontrol.io/) and search for "Blitz Search" plugin
 - [Visit Natestah.com](https://natestah.com) for the external Blitz Search Application,
+- [Give Feedback in Discorce](https://discord.com/invite/UYPwQY9ngm) - My Discord Server
 ---
