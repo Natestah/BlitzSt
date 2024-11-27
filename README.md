@@ -34,5 +34,5 @@ Search This, Replace this can be mapped to Find-in-files/Replace-in-files hotkey
 
 - Use [Package Control](https://packagecontrol.io/) and search for "Blitz Search" plugin
 - [Visit Natestah.com](https://natestah.com) for the external Blitz Search Application,
-- [Give Feedback in Discorce](https://discord.com/invite/UYPwQY9ngm) - My Discord Server
+- [Give Feedback in Discord](https://discord.com/invite/UYPwQY9ngm) - My Discord Server
 ---
