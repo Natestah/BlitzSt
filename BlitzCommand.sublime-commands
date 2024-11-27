@@ -1,3 +1,4 @@
 [
-    { "command": "blitz_search_this","caption": "Blitz Search This" }    
+    { "command": "blitz_search_this","caption": "Blitz Search This" },   
+    { "command": "blitz_replace_this","caption": "Blitz Replace This" }    
 ]

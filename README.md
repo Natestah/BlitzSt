@@ -1,34 +1,34 @@
 # Blitz Search for Sublime Text 
 
-This plugin activates "Search This" command for Sublime Text
+![hero](https://blitzsearch.s3.us-east-2.amazonaws.com/SublimeTextHero.gif)
 
-This plugin will send the word under the caret or the Selected text to the search box in Blitz Search, Blitz Search will then bring itself to the front to show you the search results.
+Blitz Search is an external application, this Sublime Text package exists to provide a couple of commands with aims of being a replacement, OR compliment to the built in find-and-replace.  
 
 * <b>Search This</b> (Selection) - Places the selection in the Blitz Search Search Box
 * <b>Search This</b> (Caret on a word) - Places word that the caret is on as a <b>Whole-Word</b> Search in the Blitz Search Search box.
+* <b>Replace This</b> - Works the same as Search This, only it will open up Replacement components.
+
+In addition, this package provides Workspace context to Blitz Search so that You can search in Workspace.
+
 
 ## What is Blitz Search?
 
-Blitz Search Is a stand-alone file contents search tool. It is built to provide a quick - out of context ( go ahead and set it to the root of all your repoisitories ) - Directory search
+Blitz Search ss a %100 Free, Open sourced, stand-alone file contents search tool, with an aim to provide an improved Find-in-files experience for multiple IDE's / Code Editors.
 
-Features:
-* Fast search and discovery
-* Simple words-on-a-line query
-* Syntax highlighting in results
-* Real time results updating as you type
-* Results update to reflect changes to files
-* Work without the weight of IDE workspace
-* Works with any IDE or text editor
-* Ignore files spec'd by .gitignore
-* Words on a line search is easier than Regex.
+For more information and Download, visit:
+ - [Natestah.com](https://natestah.com)
 
-For more information visit - [Visit Natestah.com](https://natestah.com)
+Source Code:
+ - https://github.com/natestah/blitzSearch/
 
 ## Keybinding
 
+Search This, Replace this can be mapped to Find-in-files/Replace-in-files hotkeys.
+
  (Preferences -> KeyBindings)
 
-    { "keys": ["f8"], "command": "blitz_search_this" },
+    { "keys": ["ctrl+shift+f"], "command": "blitz_search_this" },
+    { "keys": ["ctrl+shift+h"], "command": "blitz_replace_this" },
 
 ## Installation
 
