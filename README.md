@@ -15,9 +15,6 @@ In addition, this package provides Workspace context to Blitz Search so that You
 
 Blitz Search ss a %100 Free, Open sourced, stand-alone file contents search tool, with an aim to provide an improved Find-in-files experience for multiple IDE's / Code Editors.
 
-For more information and Download, visit:
- - [Natestah.com](https://natestah.com)
-
 Source Code:
  - https://github.com/natestah/blitzSearch/
 
@@ -33,6 +30,6 @@ Search This, Replace this can be mapped to Find-in-files/Replace-in-files hotkey
 ## Installation
 
 - Use [Package Control](https://packagecontrol.io/) and search for "Blitz Search" plugin
-- [Visit Natestah.com](https://natestah.com) for the external Blitz Search Application,
+- [Visit Natestah.com](https://github.com/natestah/blitzSearch/releases) for the external Blitz Search Application,
 - [Give Feedback in Discord](https://discord.com/invite/UYPwQY9ngm) - My Discord Server
 ---
